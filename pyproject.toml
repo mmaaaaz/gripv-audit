@@ -1,0 +1,30 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "gripv-audit"
+version = "0.1.0"
+description = "Deterministic params-replay audit harness for the GRIP-V video benchmark"
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+authors = [{ name = "Maaz" }]
+dependencies = [
+  "pandas>=2.0",
+  "pyarrow>=15.0",
+  "duckdb>=1.0",
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=8.0"]
+
+[project.scripts]
+gripv-audit = "gripv.run:main"
+
+[tool.setuptools.packages.find]
+include = ["gripv*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-q"
