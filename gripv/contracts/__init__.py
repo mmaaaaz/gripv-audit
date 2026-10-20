@@ -7,6 +7,7 @@ from .robot_long_jump import RobotLongJump
 from .bouncing_ball_restitution import BouncingBall
 from .glasses_fill import GlassesFill
 from .gear_train import GearTrain
+from .temporal_flash_counting import TemporalFlash
 
 CONTRACTS = {
     "glasses_fill": GlassesFill,
@@ -15,6 +16,7 @@ CONTRACTS = {
     "robot_long_jump": RobotLongJump,
     "bouncing_ball_restitution": BouncingBall,
     "gear_train": GearTrain,
+    "temporal_flash_counting": TemporalFlash,
 }
 
 
