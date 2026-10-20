@@ -9,6 +9,7 @@ from .glasses_fill import GlassesFill
 from .gear_train import GearTrain
 from .temporal_flash_counting import TemporalFlash
 from .inertia_race import InertiaRace
+from .blinking_networks import BlinkingNetworks
 
 CONTRACTS = {
     "glasses_fill": GlassesFill,
@@ -19,6 +20,7 @@ CONTRACTS = {
     "gear_train": GearTrain,
     "temporal_flash_counting": TemporalFlash,
     "inertia_race": InertiaRace,
+    "blinking_networks": BlinkingNetworks,
 }
 
 
