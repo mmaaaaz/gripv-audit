@@ -6,6 +6,7 @@ from .conveyor_belt_sort import ConveyorBelt
 from .robot_long_jump import RobotLongJump
 from .bouncing_ball_restitution import BouncingBall
 from .glasses_fill import GlassesFill
+from .gear_train import GearTrain
 
 CONTRACTS = {
     "glasses_fill": GlassesFill,
@@ -13,6 +14,7 @@ CONTRACTS = {
     "conveyor_belt_sort": ConveyorBelt,
     "robot_long_jump": RobotLongJump,
     "bouncing_ball_restitution": BouncingBall,
+    "gear_train": GearTrain,
 }
 
 

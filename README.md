@@ -96,6 +96,7 @@ Measured on the released private dataset (25,000 questions per category).
 | `balance_scale_weighing` | 15,354 | 6,743 | 2,312 | 589 | 2 (edge cases) |
 | `conveyor_belt_sort` | 15,308 | 9,678 | 5 | 0 | 9 (unresolved) |
 | `robot_long_jump` | 17,037 | 7,963 | 0 | 0 | 0 |
+| `gear_train` | 25,000 | 0 | 0 | 0 | 0 |
 | `bouncing_ball_restitution` | 3,535 | 18,822 | 2,520 | 0 | 123 (in calibration) |
 
 `bouncing_ball_restitution` is **not** counted as verified: the `pads`
@@ -148,6 +149,7 @@ gripv/
     balance_scale_weighing.py
     conveyor_belt_sort.py
     robot_long_jump.py
+    gear_train.py
     bouncing_ball_restitution.py
 tests/            engine unit tests (no dataset needed)
 docs/             method and contributor notes
