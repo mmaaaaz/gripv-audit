@@ -100,6 +100,7 @@ Measured on the released private dataset (25,000 questions per category).
 | `temporal_flash_counting` | 25,000 | 0 | 0 | 0 | 0 |
 | `inertia_race` | 18,188 | 6,812 | 0 | 0 | 0 |
 | `blinking_networks` | 19,595 | 5,405 | 0 | 0 | 0 |
+| `cellular_automata` | 7,685 | 17,315 | 0 | 0 | 0 |
 | `bouncing_ball_restitution` | 3,535 | 18,822 | 2,520 | 0 | 123 (in calibration) |
 
 `bouncing_ball_restitution` is **not** counted as verified: the `pads`
@@ -156,6 +157,7 @@ gripv/
     temporal_flash_counting.py
     inertia_race.py
     blinking_networks.py
+    cellular_automata.py
     bouncing_ball_restitution.py
 tests/            engine unit tests (no dataset needed)
 docs/             method and contributor notes
