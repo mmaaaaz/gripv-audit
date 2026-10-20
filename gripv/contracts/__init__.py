@@ -11,6 +11,7 @@ from .temporal_flash_counting import TemporalFlash
 from .inertia_race import InertiaRace
 from .blinking_networks import BlinkingNetworks
 from .cellular_automata import CellularAutomata
+from .object_tracking_mot import ObjectTracking
 
 CONTRACTS = {
     "glasses_fill": GlassesFill,
@@ -23,6 +24,7 @@ CONTRACTS = {
     "inertia_race": InertiaRace,
     "blinking_networks": BlinkingNetworks,
     "cellular_automata": CellularAutomata,
+    "object_tracking_mot": ObjectTracking,
 }
 
 
