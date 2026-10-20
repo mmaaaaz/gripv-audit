@@ -29,10 +29,14 @@ def _read_dotenv(path: Path) -> dict[str, str]:
     return out
 
 
+ROOT = Path(__file__).resolve().parent.parent
+
+
 def _discover() -> dict[str, str]:
     candidates = [
         os.environ.get("GRIPV_ENV"),
         Path.cwd() / ".env",
+        ROOT / ".env",
     ]
     for candidate in candidates:
         if candidate:
@@ -52,7 +56,6 @@ def get(key: str, default: str = "") -> str:
 HF_TOKEN = get("HF_TOKEN")
 REPO = get("GRIPV_REPO", "hamzahanif/GRIP-V")
 
-ROOT = Path(__file__).resolve().parent.parent
 CACHE_DIR = Path(get("GRIPV_CACHE", ROOT / "cache")).expanduser()
 DATA_DIR = Path(get("GRIPV_LOCAL_DIR", ROOT / "data")).expanduser()
 RESULTS_DIR = Path(get("GRIPV_RESULTS", ROOT / "results")).expanduser()
