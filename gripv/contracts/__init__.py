@@ -37,6 +37,11 @@ from .robot_archery import RobotArchery
 from .sandpile_cascade import SandpileCascade
 from .overlapping_shapes import OverlappingShapes
 from .rolling_races import RollingRaces
+from .shell_game_tracking import ShellGameTracking
+from .swing_time import SwingTime
+from .symmetry_pattern_video import SymmetryPattern
+from .tangled_braid import TangledBraid
+from .stacking_collapse import StackingCollapse
 
 CONTRACTS = {
     "glasses_fill": GlassesFill,
@@ -69,6 +74,11 @@ CONTRACTS = {
     "sandpile_cascade": SandpileCascade,
     "overlapping_shapes": OverlappingShapes,
     "rolling_races": RollingRaces,
+    "shell_game_tracking": ShellGameTracking,
+    "swing_time": SwingTime,
+    "symmetry_pattern_video": SymmetryPattern,
+    "tangled_braid": TangledBraid,
+    "stacking_collapse": StackingCollapse,
 }
 
 

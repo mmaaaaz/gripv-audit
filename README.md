@@ -120,6 +120,11 @@ Measured on the released private dataset (25,000 questions per category).
 | `sandpile_cascade` | 20,555 | 4,445 | 0 | 0 | 0 |
 | `overlapping_shapes` | 24,795 | 205 | 0 | 0 | 0 |
 | `rolling_races` | 11,789 | 13,211 | 0 | 0 | 0 |
+| `shell_game_tracking` | 25,000 | 0 | 0 | 0 | 0 |
+| `swing_time` | 25,000 | 0 | 0 | 0 | 0 |
+| `symmetry_pattern_video` | 25,000 | 0 | 0 | 0 | 0 |
+| `tangled_braid` | 25,000 | 0 | 0 | 0 | 0 |
+| `stacking_collapse` | 24,962 | 2 | 0 | 36 | 0 |
 | `simple_harmonic_motion` | 4,539 | 20,461 | 0 | 0 | 0 |
 | `bouncing_ball_restitution` | 3,370 | 19,220 | 2,410 | 0 | 0 |
 
