@@ -102,7 +102,13 @@ Measured on the released private dataset (25,000 questions per category).
 | `blinking_networks` | 19,595 | 5,405 | 0 | 0 | 0 |
 | `cellular_automata` | 7,685 | 17,315 | 0 | 0 | 0 |
 | `object_tracking_mot` | 5,060 | 19,940 | 0 | 0 | 0 |
-| `bouncing_ball_restitution` | 3,535 | 18,822 | 2,520 | 0 | 123 (in calibration) |
+| `traffic_light_queue` | 25,000 | 0 | 0 | 0 | 0 |
+| `mirror_beam_reflection` | 25,000 | 0 | 0 | 0 | 0 |
+| `nested_shapes` | 22,199 | 2,801 | 0 | 0 | 0 |
+| `spinning_polyhedra` | 19,739 | 5,261 | 0 | 0 | 0 |
+| `shape_collision` | 25,000 | 0 | 0 | 0 | 0 |
+| `simple_harmonic_motion` | 4,539 | 20,461 | 0 | 0 | 0 |
+| `bouncing_ball_restitution` | 3,370 | 19,220 | 2,410 | 0 | 0 |
 
 `bouncing_ball_restitution` is **not** counted as verified: the `pads`
 scenario does not store restitution, and wall-bounce totals are off by one.

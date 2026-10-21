@@ -13,6 +13,18 @@ from .blinking_networks import BlinkingNetworks
 from .cellular_automata import CellularAutomata
 from .object_tracking_mot import ObjectTracking
 
+from .traffic_light_queue import TrafficLightQueue
+
+from .mirror_beam_reflection import MirrorBeam
+
+from .nested_shapes import NestedShapes
+
+from .spinning_polyhedra import SpinningPolyhedra
+
+from .shape_collision import ShapeCollision
+
+from .simple_harmonic_motion import SimpleHarmonic
+
 CONTRACTS = {
     "glasses_fill": GlassesFill,
     "balance_scale_weighing": BalanceScale,
@@ -25,6 +37,12 @@ CONTRACTS = {
     "blinking_networks": BlinkingNetworks,
     "cellular_automata": CellularAutomata,
     "object_tracking_mot": ObjectTracking,
+    "traffic_light_queue": TrafficLightQueue,
+    "mirror_beam_reflection": MirrorBeam,
+    "nested_shapes": NestedShapes,
+    "spinning_polyhedra": SpinningPolyhedra,
+    "shape_collision": ShapeCollision,
+    "simple_harmonic_motion": SimpleHarmonic,
 }
 
 
