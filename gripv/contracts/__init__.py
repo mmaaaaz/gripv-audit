@@ -25,6 +25,8 @@ from .shape_collision import ShapeCollision
 
 from .simple_harmonic_motion import SimpleHarmonic
 from .occluded_pattern_counting import OccludedPattern
+from .hidden_mirrors import HiddenMirrors
+from .spring_chain_waves import SpringChain
 
 CONTRACTS = {
     "glasses_fill": GlassesFill,
@@ -45,6 +47,8 @@ CONTRACTS = {
     "shape_collision": ShapeCollision,
     "simple_harmonic_motion": SimpleHarmonic,
     "occluded_pattern_counting": OccludedPattern,
+    "hidden_mirrors": HiddenMirrors,
+    "spring_chain_waves": SpringChain,
 }
 
 
