@@ -125,6 +125,11 @@ Measured on the released private dataset (25,000 questions per category).
 | `symmetry_pattern_video` | 25,000 | 0 | 0 | 0 | 0 |
 | `tangled_braid` | 25,000 | 0 | 0 | 0 | 0 |
 | `stacking_collapse` | 24,962 | 2 | 0 | 36 | 0 |
+| `tile_alignment_shuffle` | 25,000 | 0 | 0 | 0 | 0 |
+| `translucent_occlusion` | 25,000 | 0 | 0 | 0 | 0 |
+| `turntable_voxels` | 25,000 | 0 | 0 | 0 | 0 |
+| `vessels_and_clocks` | 25,000 | 0 | 0 | 0 | 0 |
+| `well_flood_trace` | 25,000 | 0 | 0 | 0 | 0 |
 | `simple_harmonic_motion` | 4,539 | 20,461 | 0 | 0 | 0 |
 | `bouncing_ball_restitution` | 3,370 | 19,220 | 2,410 | 0 | 0 |
 

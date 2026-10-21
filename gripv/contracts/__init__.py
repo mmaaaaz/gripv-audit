@@ -42,6 +42,11 @@ from .swing_time import SwingTime
 from .symmetry_pattern_video import SymmetryPattern
 from .tangled_braid import TangledBraid
 from .stacking_collapse import StackingCollapse
+from .tile_alignment_shuffle import TileAlignmentShuffle
+from .translucent_occlusion import TranslucentOcclusion
+from .turntable_voxels import TurntableVoxels
+from .vessels_and_clocks import VesselsAndClocks
+from .well_flood_trace import WellFloodTrace
 
 CONTRACTS = {
     "glasses_fill": GlassesFill,
@@ -79,6 +84,11 @@ CONTRACTS = {
     "symmetry_pattern_video": SymmetryPattern,
     "tangled_braid": TangledBraid,
     "stacking_collapse": StackingCollapse,
+    "tile_alignment_shuffle": TileAlignmentShuffle,
+    "translucent_occlusion": TranslucentOcclusion,
+    "turntable_voxels": TurntableVoxels,
+    "vessels_and_clocks": VesselsAndClocks,
+    "well_flood_trace": WellFloodTrace,
 }
 
 
