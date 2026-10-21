@@ -24,6 +24,13 @@ class Answer:
 def norm(s: str) -> str:
     s = str(s).lower().strip()
     s = s.replace("\u2013", "-").replace("\u2014", "-")
+    s = s.replace("/", " slash ").replace("\\", " backslash ")
+    for glyph, word in (
+        ("&", " amp "), ("%", " pct "), ("#", " hash "), ("@", " at "),
+        ("?", " question "), ("$", " dollar "), ("Σ", " sigma "), ("σ", " sigma "),
+        ("Ω", " omega "), ("ω", " omega "),
+    ):
+        s = s.replace(glyph, word)
     s = re.sub(r"[^a-z0-9.\- ]+", " ", s)
     s = re.sub(r"\bthe\b", " ", s)
     return re.sub(r"\s+", " ", s).strip()
