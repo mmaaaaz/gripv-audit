@@ -32,6 +32,11 @@ from .colored_route_puzzle import ColoredRoutePuzzle
 from .moving_shadows import MovingShadows
 from .buoyancy_tank import BuoyancyTank
 from .multi_agent_chase import MultiAgentChase
+from .rainbow_bagel import RainbowBagel
+from .robot_archery import RobotArchery
+from .sandpile_cascade import SandpileCascade
+from .overlapping_shapes import OverlappingShapes
+from .rolling_races import RollingRaces
 
 CONTRACTS = {
     "glasses_fill": GlassesFill,
@@ -59,6 +64,11 @@ CONTRACTS = {
     "moving_shadows": MovingShadows,
     "buoyancy_tank": BuoyancyTank,
     "multi_agent_chase": MultiAgentChase,
+    "rainbow_bagel": RainbowBagel,
+    "robot_archery": RobotArchery,
+    "sandpile_cascade": SandpileCascade,
+    "overlapping_shapes": OverlappingShapes,
+    "rolling_races": RollingRaces,
 }
 
 
