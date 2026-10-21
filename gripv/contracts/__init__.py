@@ -27,6 +27,11 @@ from .simple_harmonic_motion import SimpleHarmonic
 from .occluded_pattern_counting import OccludedPattern
 from .hidden_mirrors import HiddenMirrors
 from .spring_chain_waves import SpringChain
+from .chess_dance_trace import ChessDance
+from .colored_route_puzzle import ColoredRoutePuzzle
+from .moving_shadows import MovingShadows
+from .buoyancy_tank import BuoyancyTank
+from .multi_agent_chase import MultiAgentChase
 
 CONTRACTS = {
     "glasses_fill": GlassesFill,
@@ -49,6 +54,11 @@ CONTRACTS = {
     "occluded_pattern_counting": OccludedPattern,
     "hidden_mirrors": HiddenMirrors,
     "spring_chain_waves": SpringChain,
+    "chess_dance_trace": ChessDance,
+    "colored_route_puzzle": ColoredRoutePuzzle,
+    "moving_shadows": MovingShadows,
+    "buoyancy_tank": BuoyancyTank,
+    "multi_agent_chase": MultiAgentChase,
 }
 
 

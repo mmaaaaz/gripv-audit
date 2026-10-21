@@ -110,6 +110,11 @@ Measured on the released private dataset (25,000 questions per category).
 | `occluded_pattern_counting` | 25,000 | 0 | 0 | 0 | 0 |
 | `hidden_mirrors` | 25,000 | 0 | 0 | 0 | 0 |
 | `spring_chain_waves` | 25,000 | 0 | 0 | 0 | 0 |
+| `chess_dance_trace` | 25,000 | 0 | 0 | 0 | 0 |
+| `colored_route_puzzle` | 25,000 | 0 | 0 | 0 | 0 |
+| `moving_shadows` | 3,411 | 21,589 | 0 | 0 | 0 |
+| `buoyancy_tank` | 20,605 | 4,375 | 20 | 0 | 0 |
+| `multi_agent_chase` | 4,112 | 20,888 | 0 | 0 | 0 |
 | `simple_harmonic_motion` | 4,539 | 20,461 | 0 | 0 | 0 |
 | `bouncing_ball_restitution` | 3,370 | 19,220 | 2,410 | 0 | 0 |
 
