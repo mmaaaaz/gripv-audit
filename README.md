@@ -104,9 +104,10 @@ Measured on the released private dataset (25,000 questions per category).
 | `object_tracking_mot` | 5,060 | 19,940 | 0 | 0 | 0 |
 | `traffic_light_queue` | 25,000 | 0 | 0 | 0 | 0 |
 | `mirror_beam_reflection` | 25,000 | 0 | 0 | 0 | 0 |
-| `nested_shapes` | 22,199 | 2,801 | 0 | 0 | 0 |
-| `spinning_polyhedra` | 19,739 | 5,261 | 0 | 0 | 0 |
+| `nested_shapes` | 25,000 | 0 | 0 | 0 | 0 |
+| `spinning_polyhedra` | 20,017 | 4,983 | 0 | 0 | 0 |
 | `shape_collision` | 25,000 | 0 | 0 | 0 | 0 |
+| `occluded_pattern_counting` | 25,000 | 0 | 0 | 0 | 0 |
 | `simple_harmonic_motion` | 4,539 | 20,461 | 0 | 0 | 0 |
 | `bouncing_ball_restitution` | 3,370 | 19,220 | 2,410 | 0 | 0 |
 

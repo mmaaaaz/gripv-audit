@@ -24,6 +24,7 @@ from .spinning_polyhedra import SpinningPolyhedra
 from .shape_collision import ShapeCollision
 
 from .simple_harmonic_motion import SimpleHarmonic
+from .occluded_pattern_counting import OccludedPattern
 
 CONTRACTS = {
     "glasses_fill": GlassesFill,
@@ -43,6 +44,7 @@ CONTRACTS = {
     "spinning_polyhedra": SpinningPolyhedra,
     "shape_collision": ShapeCollision,
     "simple_harmonic_motion": SimpleHarmonic,
+    "occluded_pattern_counting": OccludedPattern,
 }
 
 
